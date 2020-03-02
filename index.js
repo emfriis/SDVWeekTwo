@@ -6,13 +6,14 @@ console.log(nameFirst); // Prints nameFirst value to console.
 var nameLast = 'Friis'; // Assigns value 'Friis' to nameLast.
 console.log(nameLast); // Prints nameLast value to console.
 
-function printMiddleName() {; // Function assigns value to new variable nameMiddle then prints to console.
+function printMiddleName() {; // Function prints new variable nameMiddle.
     var nameMiddle = 'Margaret'; // Assigns value 'Maragaret' to nameMiddle.
     console.log(nameMiddle) }; // Prints middleName value to console.
 
 printMiddleName(); // Calls function printMiddleName.
 
-console.log(firstName + " " + lastName); // Prints a string containing firstName value, a space, then lastName value to the console.
+nameFull = nameFirst + " " + nameLast // Assigns value to nameFull of nameFirst then nameLast separated by a space.
+console.log(nameFull); // Prints nameFull value to console.
 
 var numFirst = 4; // Assigns value 4 to numFirst.
 
